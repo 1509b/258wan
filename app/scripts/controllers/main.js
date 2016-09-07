@@ -9,5 +9,5 @@
  */
 angular.module('yeomanApp',['ui.router'])
   .controller('main', function () {
-      
+   
   });
