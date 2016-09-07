@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.index-max{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+.index-ul{
+	list-style: none;
+	width: 100%;
+	height: 80px;
+	-webkit-box-flex: 1;
+}
+.index-ul>li{
+	float: left;
+}
+.index-img{
+	width: 182px;
+	height: 80px;
+	overflow: hidden;
+}
+.index-img img{
+	display: block;
+	width: 103px;
+	height: 28px;
+	margin:26px auto 0 auto;
+}
