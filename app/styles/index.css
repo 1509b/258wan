@@ -7,6 +7,10 @@
 	width: 100%;
 	min-width: 900px;
 	height: 80px;
+	background: white;
+	position: fixed;
+	top: 0;
+	z-index: 99;
 }
 .index-ul{
 	list-style: none;
@@ -197,8 +201,7 @@
 	width: 100%;
 	height: 96px;
 	background: #17171a;
-	position: relative;
-	bottom: 0;
+	
 	overflow: hidden;
 }
 .index-footer p{
