@@ -69,6 +69,7 @@
 		<script src="scripts/controllers/meeting.js"></script>
 		<script src="scripts/controllers/information.js"></script>
 		<script src="scripts/controllers/dynamic.js"></script>
+		<script src="scripts/controllers/index.js" type="text/javascript" charset="utf-8"></script>
 		<!-- endbuild -->
 		<!--<div class="nav">
     	<ul>
@@ -89,48 +90,32 @@
 					<img src="images/banner.png" />
 				</div>
 
-				<ul class="index-ul">
-					<li>
-						<a ui-sref="main">首页</a>
-					</li>
-					<li>
-						<a ui-sref="product">产品</a>
-						<ul>
-							<li>
-								<a ui-sref="family">家庭影院</a>
-							</li>
-							<li>
-								<a ui-sref="fever">HIFI发烧</a>
-							</li>
-							<li>
-								<a ui-sref="screen">3D屏幕</a>
-							</li>
-							<li>
-								<a ui-sref="meeting">多功能会议</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a ui-sref="news">新闻</a>
-						<ul>
-							<li>
-								<a ui-sref="dynamic">公司动态</a>
-							</li>
-							<li>
-								<a ui-sref="information">行业资讯</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a ui-sref="about">关于</a>
-					</li>
-					<li>
-						<a ui-sref="case">案例</a>
-					</li>
-					<li>
-						<a ui-sref="contact">联系</a>
-					</li>
-				</ul>
+				<ul class="index-ul" id="index-ul">
+    		<li><a ui-sref="main">首页</a></li>
+    		<li id="chan"><a ui-sref="product" >产品</a>
+    			<ul id="ulf" class="ulf">
+    				<li><a ui-sref="family">家庭影院</a></li>
+    				<li><a ui-sref="fever">HIFI发烧</a></li>
+    				<li><a ui-sref="screen">3D屏幕</a></li>
+    				<li><a ui-sref="meeting">多功能会议</a></li>
+    			</ul>
+    		</li>
+    		<li id="xin"><a ui-sref="news">新闻</a>
+    			<ul id="ult" class="ult">
+    				<li><a ui-sref="dynamic">公司动态</a></li>
+    				<li><a ui-sref="information">行业资讯</a></li>
+    			</ul>
+    		</li>
+    		<li><a ui-sref="about">关于</a></li>
+    		<li><a ui-sref="case">案例</a></li>
+    		<li><a ui-sref="contact">联系</a></li>
+        <li class="index-input"  id="index-ser"><img src="images/shousuo.png" alt=""/>
+                <div class="index-hover" id="index-div">
+                	<input type="text" class="index-nn" id="index-nn"/>
+                	<img src="images/index-search.png" alt="" />
+                </div></li>
+    	</ul>
+
 
 			</div>
 
@@ -145,5 +130,5 @@
 		</div>
 
 	</body>
-
+ 
 </html>

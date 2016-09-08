@@ -1,11 +1,11 @@
 'use strict';
 
-/**
+/*
  * @ngdoc function
  * @name yeomanApp.controller:MainCtrl
  * @description
- * # MainCtrl 
+ * # MainCtrl */
 angular.module('yeomanApp',['ui.router'])
-  .controller('main', function () {
+  .controller('b', function () {
    
   });
