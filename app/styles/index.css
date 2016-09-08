@@ -30,3 +30,20 @@
 	height: 28px;
 	margin:26px auto 0 auto;
 }
+.index-footer{
+	width: 100%;
+	height: 96px;
+	background: #17171a;
+	position: relative;
+	bottom: 0;
+	overflow: hidden;
+}
+.index-footer p{
+	font-size: 12px;
+	color: #888888;
+	text-align: center;
+	line-height: 16px;
+}
+.index-footer p:nth-child(1){
+	margin-top: 29px;
+}
