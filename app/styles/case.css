@@ -6,12 +6,95 @@
 .case-zhou{
 	width: 100%;
 	height: 285px;
+	overflow: hidden;
+	
+}
+.case-peng{
+	width: 100%;
+	height: 285px;
+	overflow: hidden;
 }
 .zhou-first{
 	width: 33.3%;
 	height: 285px;
 	float: left;
+	position: relative;
+	overflow: hidden;
 }
-.zhou-first:nth-child(2){
-	width: 33.4%;
+.zhou-first img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 1.5;
+	transition: 1s;
+}
+
+.zhou-first span{
+	display: block;
+	width: 100%;
+	height: 285px;
+	background: #161c22;
+	opacity: 0.4;
+	position: absolute;
+}
+.zhou-first p:nth-child(3){
+	font-size: 14px;
+	color: #dcddde;
+	text-align: center;
+	position: absolute;
+	top: 83px;
+	left: 42.3%;
+	z-index: 33;
+}
+.zhou-first p:nth-child(4){
+	display: block;
+	width: 20px;
+	height: 2px;
+	background: #a2adb6;
+	position: absolute;
+	top: 113px;
+	left: 49.3%;
+	z-index: 33;
+}
+.zhou-first p:nth-child(5){
+	font-size: 18px;
+	color: #dcddde;
+	position: absolute;
+	top: 131px;
+	left: 33.3%;
+	z-index: 33;
+}
+.zhou-first p:nth-child(6){
+	display: block;
+	width: 58px;
+	height: 34px;
+	border: 1px #a7b0b5 solid;
+	font-size: 13px;
+	color: #dcddde;
+	line-height: 34px;
+	text-align: center;
+	border-radius: 4px;
+	position: absolute;
+	top: 172px;
+	left: 45.3%;
+	z-index: 33;
+}
+.case-last{
+	width: 100%;
+	height: 43px;
+	background: white;
+	transition: 1s;
+}
+.case-last:hover{
+	background: #7bc91e;
+}
+.case-last p{
+	font-size: 14px;
+	color: #89949e;
+	text-align: center;
+	line-height: 43px;
+}
+.case-last p a{
+	color: #89949e;
+	text-decoration: none;
 }
