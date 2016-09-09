@@ -1,0 +1,17 @@
+.case{
+	width: 100%;
+	height: 570px;
+	overflow: hidden;
+}
+.case-zhou{
+	width: 100%;
+	height: 285px;
+}
+.zhou-first{
+	width: 33.3%;
+	height: 285px;
+	float: left;
+}
+.zhou-first:nth-child(2){
+	width: 33.4%;
+}
