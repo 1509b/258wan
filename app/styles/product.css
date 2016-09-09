@@ -1,6 +1,7 @@
 body{
 	width: 100%;
 	overflow-x: hidden;
+	background: #F6F6F6;
 }
 #hui_bj{
 	background: url(../images/logo.jpg) no-repeat center center;
@@ -70,7 +71,7 @@ body{
 /*内容*/
 #hui_main{
 	width: 100%;
-	background: #F6F6F6;
+	height: auto;
 }
 .hui_main{
 	width: 1170px;
@@ -78,9 +79,7 @@ body{
 }
 .hui_main ul{
 	width: 1200px;
-	height: 596px;
 	margin: 0 auto;
-	padding-top: 20px;
 }
 .hui_main ul li{
 	float: left;
@@ -105,7 +104,7 @@ body{
 }
 .hui_main ul li h4 a{
 	color:#000;
-	font-size: 18px;
+	font-size: 16px;
 	text-decoration: none;
 	transition: all ease 0.5s;
 }
