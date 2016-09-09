@@ -1,14 +1,14 @@
-img1.style.transform="scale("+1.3+")";
 
+img1.style.transform="scale("+1.3+")";
 setTimeout(function(){
   img1.style.transform="scale("+1.0+")";
 },500);
 
 ser.onfocus=function(){
-  seh.style.border="1px solid lime"
+  seh.style.border="1px solid lime";
 };
 ser.onblur=function(){
-  seh.style.border="1px solid #ccc"
+  seh.style.border="1px solid #ccc";
 };
 if(localStorage.s1){
   var num2=parseInt(localStorage.getItem("s1"));
@@ -25,7 +25,7 @@ if(localStorage.s1){
     localStorage.setItem('s1',num);
     span3.innerHTML=num;
   }
-}
+};
 
 
 
