@@ -1,7 +1,7 @@
 body{
 	width: 100%;
 	overflow-x: hidden;
-	background: #F6F6F6;
+	/*background: #F6F6F6;*/
 }
 #hui_bj{
 	background: url(../images/logo.jpg) no-repeat center center;
@@ -73,6 +73,8 @@ body{
 #hui_main{
 	width: 100%;
 	height: auto;
+	background: #F6F6F6;
+	overflow: hidden;
 	margin-bottom: 30px;
 }
 .hui_main{
