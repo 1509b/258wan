@@ -10,14 +10,14 @@
 	background: white;
 	position: fixed;
 	top: 0;
-	z-index: 99;
+	z-index: 123456;
 }
 .index-ul{
 	list-style: none;
 	width: 692px;
 	height: 80px;
 	float: right;
-	
+
 }
 .index-ul>li{
 	float: left;
@@ -201,7 +201,7 @@
 	width: 100%;
 	height: 96px;
 	background: #17171a;
-	
+
 	overflow: hidden;
 }
 .index-footer p{

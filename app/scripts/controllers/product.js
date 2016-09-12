@@ -7,7 +7,4 @@
  * # MainCtrl
  * Controller of the yeomanApp
  */
-angular.module('yeomanApp',['ui.router'])
-  .controller('product', function () {
-   		
-  });
+
