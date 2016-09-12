@@ -38,7 +38,8 @@
 //	  	})
 //  });
 
- angular.module("yeoman",["ui.router"]).config(function($stateProvider){
+ angular.module("yeoman",["ui.router"]).config(function($stateProvider,$urlRouterProvider){
+ 	        $urlRouterProvider.when("", "/main")
             $stateProvider.state("main",{
                 templateUrl:"../views/main.html",
                 url:"/main"
