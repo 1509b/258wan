@@ -1,5 +1,6 @@
 *{margin: 0px;padding: 0px;font-family: "微软雅黑";}
 .about-img{width: 100%;overflow: hidden;}
+.about-back{background-color: #ffffff;}
 .about-img img{width: 100%;
     height:100%;
     transition: 2s;}
