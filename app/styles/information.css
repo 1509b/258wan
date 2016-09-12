@@ -1,0 +1,149 @@
+body{
+  background:#F6F6F6;
+}
+ul li{
+  list-style:none;
+}
+span{
+  font-size:13px;
+  color:#999;
+}
+.information .show{
+  width:100%;
+  height:350px;
+  overflow:hidden;
+}
+#img1{
+  width:100%;
+  transition:1.5s;
+}
+.information  .main{
+  width:1170px;
+  height:700px;
+  margin:30px auto;
+}
+.information .main_l{
+  float:left;
+  width:870px;
+  height:auto;
+  background:#fff;
+}
+.information  .main_r{
+  float:right;
+  width:260px;
+  height:auto;
+  background:#fff;
+}
+.left{
+  float:left;
+  width:90%;
+  height:auto;
+  border-bottom:1px solid #ccc;
+  padding:20px 0 30px 30px;
+}
+.left_img{
+  float:left;
+  width:180px;
+  height:auto;
+}
+.left_img img{
+  width:160px;
+  height:112px;
+}
+.left_mes{
+  height:100%;
+}
+.left_mes p a{
+  text-decoration:none;
+  color:#2A333C;
+  font-size:18px;
+}
+.left_mes p a:hover{
+  color:limegreen;
+}
+.left_mes .span1{
+  margin-top:6px;
+  float:left;
+  width:76%;
+  height:auto;
+}
+.left_mes .span2{
+  margin-top:10px;
+  float:left;
+}
+.left_mes .span3{
+  margin-top:10px;
+  float:left;
+}
+
+.information .search{
+  margin:20px auto;
+  width:80%;
+  height:56px;
+  border-bottom:1px solid #ccc
+}
+.search .seh{
+  transition:1s;
+  width:100%;
+  height:37px;
+  border-radius:20px 20px;
+  border:1px solid #ccc;
+}
+.seh input{
+  float:left;
+  display:block;
+  margin:0 0 0 14px;
+  width:70%;
+  height:34px;
+  border:none;
+  outline:none;
+}
+.seh img{
+  float:right;
+  margin:6px 10px 0 0;
+}
+.information .center{
+  width:80%;
+  margin:0 auto;
+}
+.center p{
+  font-size:18px;
+}
+.center ul{
+  width:100%;
+  margin:15px auto;
+}
+.center ul li a{
+  color:#999;
+  font-size:14px;
+  text-decoration:none;
+}
+.center ul li a:hover{
+  color:limegreen;
+}
+.center ul li{
+  width:100%;
+  height:auto;
+  border:1px solid #ccc;
+  padding:16px 20px;
+}
+.center ul li{
+  border-bottom:none;
+}
+.center ul li:last-child{
+  border-bottom:1px solid #ccc;
+}
+.information .bot{
+  padding-top:20px;
+  border-top:1px solid #ccc;
+  width:80%;
+  margin:20px auto;
+}
+.bot a{
+  font-size:16px;
+  color:#999;
+  text-decoration:none;
+}
+.bot a:hover{
+  color:limegreen;
+}
