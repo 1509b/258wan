@@ -1,7 +1,6 @@
-body{
+/*body{
 	width: 100%;
 	overflow-x: hidden;
-	background: #F6F6F6;
 }
 #hui_bj{
 	background: url(../images/logo.jpg) no-repeat center center;
@@ -9,20 +8,20 @@ body{
 	background-size: cover;
 	width: 100%;
 	height: 450px;
-}
+}*/
 
 
 /*导航*/
-#hui_nav{
+/*#hui_nav{
 	width: 100%;
 	height: 50px;
 	background: white;
+	margin-bottom: 15px;
 }
 .hui_nav{
 	width: 1170px;
 	height: 50px;
 	margin: 0 auto;
-	/*background: red;*/
 }
 .hui_nav ul{
 	height:40px;
@@ -65,13 +64,16 @@ body{
 .hui_nav img{
 	width: 14px;
 	height: 14px;
-}
+}*/
 
 
 /*内容*/
-#hui_main{
+/*#hui_main{
 	width: 100%;
 	height: auto;
+	overflow: hidden;
+	background: #F6F6F6;
+	margin-bottom: 30px;
 }
 .hui_main{
 	width: 1170px;
@@ -83,13 +85,14 @@ body{
 }
 .hui_main ul li{
 	float: left;
-	margin: 10px;
+	margin: 15px;
 	background:white;
 	display: inline-block;
 }
 .hui_main ul li div{
 	width: 270px;
 	height: 265px;
+	margin-bottom: 30px;
 }
 .hui_main ul li div:hover h4 a{
 	transition: all ease 0.5s;
@@ -111,4 +114,4 @@ body{
 .hui_main ul li h4 a:hover{
 	color: #7BC91E;
 	
-}
+}*/
